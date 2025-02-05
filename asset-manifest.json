@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abd-ur.github.io/static/css/main.d4ec0e01.css",
+    "main.js": "/abd-ur.github.io/static/js/main.b9beb1ae.js",
+    "static/js/488.21a3b654.chunk.js": "/abd-ur.github.io/static/js/488.21a3b654.chunk.js",
+    "index.html": "/abd-ur.github.io/index.html",
+    "main.d4ec0e01.css.map": "/abd-ur.github.io/static/css/main.d4ec0e01.css.map",
+    "main.b9beb1ae.js.map": "/abd-ur.github.io/static/js/main.b9beb1ae.js.map",
+    "488.21a3b654.chunk.js.map": "/abd-ur.github.io/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ec0e01.css",
+    "static/js/main.b9beb1ae.js"
+  ]
+}
