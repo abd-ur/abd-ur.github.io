@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="button-container">
+        <button class="nav-button" onclick="scrollToSection('intro')">INTRO</button>
+        <button class="nav-button" onclick="scrollToSection('about')">ABOUT</button>
+        <button class="nav-button" onclick="scrollToSection('works')">PROJECTS</button>
+        <button class="nav-button" onclick="scrollToSection('contact')">CONTACT</button>
+    </div>
+
+    <!-- Page Sections -->
+    <section id="intro" class="sec-intro">
+        <div class="title-container">
+            <h3 class="hi-line">HI</h3>
+            <h1 class="intro-text">
+                I am Abdur Rahman Ansari, <br>
+                Advanced AI Systems developer <br>
+                specializing in medical applications <br>
+                based in India.
+            </h1>
+        </div>
+         </section>
+        
+    <section id="about" class="sec-about">
+          <div class="title-container">
+            <h3 class="text-with-lines">ABOUT</h3>
+            <p class="about-text">
+                 Looking for a PhD position, I hold a Master's degree in Medical Bioinformatics from Sri Ramachandra Institute of Higher Education and Research, Chennai. My research interest mainly lies in developing innovative Deep Learning solutions in medical world with a strong focus on their applications in neuroscience, statistical modeling, and medical image analysis. My work involves developing AI-driven solutions that leverage representation learning to better understand complex biological systems. I have experience in computational neuroscience, deep learning-based pixel level image analysis, and deploying AI pipelines for real-world applications.
+            </p>
+            <button class="cv-button" onclick="downloadResume()">DOWNLOAD RESUME</button>
+           
+            <h3 class="exp-title">EXPERTISE</h3>
+            <p class="sk-list">Neural Network Architectures <br>
+                                Representation Learning<br>
+                                Reinforcement Learning<br>
+                                Multimodal Learning<br>
+                                Statistical Modeling<br>
+                                Computational Neuroscience<br>
+                                Image Processing</p>
+                                           
+             <p class="sk-des">CNN, GNN, Transformer, LSTM <br>
+                                Self-Supervised Learning, Contrastive Learning, Autoencoders<br>
+                                RNN, Decision making systems<br>
+                                Integrated Multi-Data Learning, Ensemble Learning <br>
+                                High Dimensional Data Analysis, Manifold Learning<br>
+                                Neural Encodin, Cognitive Neuroscience Modeling, Brain Inspired AI<br>
+                                Augmentation/Segmentation, Edge Detection, Texture and Shape Analysis</p>
+
+                                
+            <h3 class="ed-ex">EXPERIENCE</h3>
+            <p class="exp-1">
+                <span style="font-size: 27px; font-weight: 200;">Research Intern</span> <br>
+                 <span style="font-size: 20px;">Institute of Bioinformatics and Applied Biotechnology, Bangalore</span><br>
+                 <span style="font-size: 18px;">Nov'2023 - Jul'2024</span><br><br>
+                 <span style="font-size: 20px;">Developed Reinforcement Learning based deep net pipeling for accurately representing mutation profiles and predicting ASD</span>
+            </p>
+            <p class="exp-2">
+                <span style="font-size: 27px; font-weight: 200;">Algorithm Developer</span> <br>
+                 <span style="font-size: 20px;">SRIHER, SRET-lab, Chennai</span><br>
+                 <span style="font-size: 18px;">May'2023 - Aug'2023</span><br><br>
+                 <span style="font-size: 20px;">Developed AI powered image augmentation and segmentation algorithm for counting metastatic cells in breast cancer tissue sample image</span>
+            </p>
+            <div class="exp-line1"></div>
+            <p class="exp-3">
+                <span style="font-size: 27px; font-weight: 200;">Freelance SEO Optimizer</span> <br>
+                 <span style="font-size: 20px;">Blog pages</span><br>
+                 <span style="font-size: 18px;">Jul'2023 - Sep'2023</span><br><br>
+                 <span style="font-size: 20px;">Content creation on travel blogs and SEO optimization for webpages</span>
+            </p>
+            <div class="exp-line2"></div>
+            </div>
+    </section>
+         
+    <section id="works" class="sec-project">
+        <h1 class="pro-title">PROJECTS</h1>
+    <button class="pro-1" onclick="window.open('https://gitlab.com/theabdur10/cat_repr', '_blank')">
+    <span class="pro-head">Cat2Embed</span><br>
+    <span class="pro-text">A smart Representation Learning algorithm utilising clustering technology to convert high dimensional categorical data into learnable tensors</span>
+    </button>
+    <button class="pro-2" onclick="window.open('https://github.com/abd-ur/OSCCdetection', '_blank')">
+    <span class="pro-head">OSCC_Detection</span><br>
+    <span class="pro-text">A stacked multi-model deep architecture with meta voting for accurately predicting carcinoma cells on pre-processed oral tissue images</span>
+    </button>
+    <button class="pro-3" onclick="window.open('https://github.com/abd-ur/PSO_GEA', '_blank')">
+    <span class="pro-head">PSO_GEA</span><br>
+    <span class="pro-text">A PSO optimized gene expression analysis on genetic algorithm into brain cancer subtype classification</span>
+    </button>
+    <button class="pro-4" onclick="window.open('https://github.com/abd-ur/HealthBot', '_blank')">
+    <span class="pro-head">HealthBot</span><br>
+    <span class="pro-text">An NLP chatbot webapp equiped with Tensorflow model for learning and providing suitable recommendations on medical health records</span>
+    </button>
+    <button class="pro-5" onclick="window.open('https://github.com/abd-ur/MTC_Count', '_blank')">
+    <span class="pro-head">MTC_Count</span><br>
+    <span class="pro-text">Quick algorithm on edging based segmentation for detecting metastatic cells in cancerous tissue images</span>
+    </button>
+    </section>
+    
+    <section id="contact" class="sec-contact">
+    <h1 class="con-title">To connect</h1>
+    
+    <a href="https://github.com/abd-ur" target='_blank'>
+        <img src="git.svg" class="git" alt="GitHub"></a>
+        
+    <a href="mailto:theabdur10@gmail.com" target='_blank'>
+        <img src="email.svg" class="gmail" alt="Email"></a>
+        
+    <a href="https://www.linkedin.com/in/abdur-rahman-ansari-080281251" target="_blank">
+        <img src="link.svg" class="link" alt="LinkedIn"></a>
+    </section>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+
+            // Remove "active" from all buttons
+            document.querySelectorAll(".nav-button").forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            // Add "active" class to the clicked button
+            document
+               .querySelector(`.nav-button[onclick="scrollToSection('${sectionId}')"]`)
+              .classList.add("active");
+        }
+
+        // Observe sections to highlight the active button while scrolling
+        const sections = document.querySelectorAll("section");
+        const buttons = document.querySelectorAll(".nav-button");
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        let activeSection = entry.target.id;
+
+                        // Remove "active" from all buttons
+                        buttons.forEach((btn) => btn.classList.remove("active"));
+
+                        // Add "active" class to the corresponding button
+                        document
+                            .querySelector(`.nav-button[onclick="scrollToSection('${activeSection}')"]`)
+                            ?.classList.add("active"); // `?.` prevents errors if no match is found
+                    }
+                });
+            },
+            { threshold: 0.6 } // Adjust this value to trigger earlier/later
+        );
+
+        // Observe all sections
+        sections.forEach((section) => observer.observe(section));
+        function downloadResume() {
+        window.open("Resume.pdf", "_blank"); }
+
+    </script>
+
+
+    
+</body>
+</html>
