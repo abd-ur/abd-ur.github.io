@@ -69,6 +69,7 @@ body {
     padding: 50px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .sec-about {
     display: flex;
@@ -76,6 +77,7 @@ body {
     align-items: center;  /* Centers content */
     justify-content: center;
     padding: 200px 20px;
+    flex-direction: column;
 }
 .sec-project {
     display: flex;
